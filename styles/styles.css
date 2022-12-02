@@ -1,0 +1,11 @@
+/* font-family: 'Poppins', sans-serif; 400,500,600*/
+/* font-family: 'Secular One', sans-serif; 400*/
+:root {
+  --heading-color: #000958;
+  --content-color: #656689;
+  --light-background-color: #fffaf5;
+  --dark-background-color: rgba(255, 239, 222, 0.5);
+  --button-color: #ff5b2e;
+  --heading-font: "Secular One", sans-serif;
+  --content-font: "Poppins", sans-serif;
+}
