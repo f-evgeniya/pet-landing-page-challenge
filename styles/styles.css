@@ -21,6 +21,9 @@ h4 {
   font-family: var(--heading-font);
   color: var(--heading-color);
 }
+h3 {
+  font-size: 36px;
+}
 .active {
   color: #000958;
 }
@@ -28,20 +31,26 @@ h4 {
   font-size: 18px;
   font-weight: normal;
 }
+
 .dog-hero {
   position: relative;
-  top: -140px;
+  top: -580px;
   left: 300px;
-  width: 400px;
+}
+.cat-hero {
+  margin-top: 150px;
 }
 .dog-hero-img {
   border: 12px solid #fff;
   border-radius: 30px;
 }
+.cat-hero-img {
+  border-bottom-right-radius: 30px;
+}
 .hero-star-icon {
   position: relative;
-  top: -550px;
-  left: 550px;
+  top: -600px;
+  left: 650px;
 }
 .hero-circle-icon {
   position: relative;
@@ -81,4 +90,29 @@ h4 {
   color: var(--button-color);
   background: var(--light-background-color);
   border: 1px solid var(--button-color);
+}
+
+.navigation-links {
+  text-decoration: none;
+}
+.navigation-img {
+  transition: transform 0.2s;
+}
+.navigation-img:hover {
+  transform: scale(1.1);
+}
+.navigation-circle-icon {
+  position: relative;
+  top: -420px;
+  left: -180px;
+}
+.navigation-dots-icon {
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+.navigation-chevron-icon {
+  position: relative;
+  top: -350px;
+  left: 180px;
 }

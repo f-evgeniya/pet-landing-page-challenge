@@ -2,3 +2,25 @@
 992px
 768px
 576px */
+@media (max-width: 1600px) {
+  .hero-content-container {
+    margin-right: 150px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1400px) {
+  .dog-hero {
+    left: 250px;
+  }
+}
+@media (max-width: 1300px) {
+  .dog-hero {
+    top: -650px;
+    left: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .dog-hero {
+    display: none;
+  }
+}
