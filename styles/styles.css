@@ -32,20 +32,53 @@ h4 {
   position: relative;
   top: -140px;
   left: 300px;
+  width: 400px;
 }
 .dog-hero-img {
   border: 12px solid #fff;
   border-radius: 30px;
 }
-.hero-heading {
-  font-size: 56px;
-  line-height: 1.5;
+.hero-star-icon {
+  position: relative;
+  top: -550px;
+  left: 550px;
+}
+.hero-circle-icon {
+  position: relative;
+  top: -50px;
+  left: 500px;
+}
+.hero-paw-icon {
+  position: relative;
+  left: 150px;
 }
 .hero-content-container {
-  margin: 0 250px 0 50px;
+  margin: 0 300px 0 0;
+}
+.hero-heading {
+  font-size: 58px;
+  line-height: 1.5;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .hero-text {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
+}
+.contact-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--button-color);
+  padding: 16px 26px;
+  border-radius: 10px;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  margin-top: 50px;
+  transition: all 200ms ease-in-out;
+}
+.contact-btn:hover {
+  color: var(--button-color);
+  background: var(--light-background-color);
+  border: 1px solid var(--button-color);
 }
