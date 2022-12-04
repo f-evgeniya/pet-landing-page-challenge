@@ -4,7 +4,7 @@
   --heading-color: #000958;
   --content-color: #656689;
   --light-background-color: #fffaf5;
-  --dark-background-color: rgba(255, 239, 222, 0.5);
+  --dark-background-color: rgba(255, 239, 222, 0.562);
   --button-color: #ff5b2e;
   --heading-font: "Secular One", sans-serif;
   --content-font: "Poppins", sans-serif;
@@ -13,6 +13,7 @@ body {
   font-family: var(--content-font);
   color: var(--content-color);
   background: var(--light-background-color);
+  margin: 0;
 }
 h1,
 h2,
@@ -21,8 +22,10 @@ h4 {
   font-family: var(--heading-font);
   color: var(--heading-color);
 }
-h3 {
+h4 {
   font-size: 36px;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 .active {
   color: #000958;
@@ -115,4 +118,50 @@ h3 {
   position: relative;
   top: -350px;
   left: 180px;
+}
+/* blog */
+.blog-bg-container {
+  background: var(--dark-background-color);
+}
+.blog-heading {
+  font-size: 46px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: center;
+}
+.blog-content {
+  text-align: left;
+  padding-left: 70px;
+}
+.blog-text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.blog-link {
+  color: var(--content-color);
+  text-decoration: none;
+}
+.blog-link:hover {
+  color: var(--button-color);
+}
+.blog-star-icon {
+  position: relative;
+  top: -150px;
+  left: 350px;
+}
+.blog-dots-icon {
+  position: relative;
+  top: 350px;
+  left: -280px;
+}
+.blog-paw-icon {
+  position: relative;
+  top: 80px;
+  left: -80px;
+}
+.blog-chevron-icon {
+  position: relative;
+  left: 190px;
+  top: -30px;
 }
