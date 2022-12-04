@@ -22,6 +22,12 @@ h4 {
   font-family: var(--heading-font);
   color: var(--heading-color);
 }
+h3 {
+  font-size: 46px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: center;
+}
 h4 {
   font-size: 36px;
   text-transform: capitalize;
@@ -123,12 +129,7 @@ h4 {
 .blog-bg-container {
   background: var(--dark-background-color);
 }
-.blog-heading {
-  font-size: 46px;
-  line-height: 1.5;
-  font-weight: normal;
-  text-align: center;
-}
+
 .blog-content {
   text-align: left;
   padding-left: 70px;
@@ -164,4 +165,35 @@ h4 {
   position: relative;
   left: 190px;
   top: -60px;
+}
+/* get involved */
+.background {
+  background: #fb901a;
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+  position: relative;
+  top: 150px;
+  left: 320px;
+  margin-top: -100px;
+}
+.help-img {
+  position: relative;
+}
+.help-title {
+  margin-top: 60px;
+  cursor: default;
+}
+.help-list {
+  list-style: none;
+  font-size: 18px;
+}
+.help-chevron-icon {
+  position: relative;
+  top: -300px;
+  left: 550px;
+}
+.help-star-icon {
+  position: relative;
+  left: 300px;
 }
