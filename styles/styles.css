@@ -65,7 +65,7 @@ h4 {
 .hero-circle-icon {
   position: relative;
   top: -50px;
-  left: 500px;
+  left: 750px;
 }
 .hero-paw-icon {
   position: relative;
@@ -73,6 +73,7 @@ h4 {
 }
 .hero-content-container {
   margin: 0 300px 0 0;
+  
 }
 .hero-heading {
   font-size: 58px;
@@ -197,4 +198,33 @@ h4 {
 .help-star-icon {
   position: relative;
   left: 300px;
+}
+
+footer li {
+  list-style: none;
+  padding: 6px;
+  font-size: 16px;
+}
+footer a {
+  text-decoration: none;
+  color: var(--heading-color);
+}
+footer a:hover {
+  color: var(--content-color);
+}
+.social-icon-text {
+  padding: 0 15px;
+  font-size: 16px;
+  color: var(--heading-color);
+}
+.social-icon-link {
+  padding: 0 10px;
+  font-size: 18px;
+  color: var(--heading-color);
+
+}
+.social-icon{
+  background: var(--light-background-color);
+  padding: 16px;
+  border-radius: 50%;
 }
