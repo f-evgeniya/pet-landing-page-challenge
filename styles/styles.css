@@ -73,7 +73,6 @@ h4 {
 }
 .hero-content-container {
   margin: 0 300px 0 0;
-  
 }
 .hero-heading {
   font-size: 58px;
@@ -221,10 +220,12 @@ footer a:hover {
   padding: 0 10px;
   font-size: 18px;
   color: var(--heading-color);
-
 }
-.social-icon{
+.social-icon {
   background: var(--light-background-color);
   padding: 16px;
   border-radius: 50%;
+}
+.created a {
+  font-size: 16px;
 }
