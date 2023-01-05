@@ -1,7 +1,4 @@
-/* 1200px
-992px
-768px
-576px */
+
 @media (max-width: 1600px) {
   .hero-content-container {
     margin-right: 150px;
